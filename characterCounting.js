@@ -10,7 +10,7 @@ var strCount = {
 
 function countLetters (str) {
 
-  str = str.split("");
+  str = str.split(" ").join("").split("");
 
   for (let i = 0; i < str.length; i++) {
 
