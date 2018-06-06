@@ -14,10 +14,7 @@ function countLetters (str) {
 
   for (let i = 0; i < str.length; i++) {
 
-    if (str[i] == " ") {
-
-    }
-    else if (!strCount[str[i]]) {
+    if (!strCount[str[i]]) {
       strCount[str[i]] = 1;
     }
     else {
